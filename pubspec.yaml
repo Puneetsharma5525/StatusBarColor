@@ -1,8 +1,8 @@
 name: status_bar
 description: "Widget modifying status & navigation bar color: StatusBarColor dependency project."
 version: 0.0.1
-homepage:
-
+homepage: https://github.com/Puneetsharma5525/StatusBarColor
+repository: https://github.com/Puneetsharma5525/StatusBarColor
 environment:
   sdk: '>=3.3.3 <4.0.0'
   flutter: ">=1.17.0"
@@ -17,3 +17,19 @@ dev_dependencies:
   flutter_lints: ^3.0.2
 
 flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.puneet.status_bar
+        pluginClass: StatusBarPlugin
+      ios:
+        pluginClass: StatusBarPlugin
+      linux:
+        pluginClass: StatusBarPlugin
+      macos:
+        pluginClass: StatusBarPlugin
+      windows:
+        pluginClass: StatusBarPluginCApi
+      web:
+        pluginClass: StatusBarWeb
+        fileName: status_bar.dart
