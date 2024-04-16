@@ -1,6 +1,6 @@
 name: status_navigation
 description: "Widget modifying status & navigation bar color: StatusBarColor dependency project."
-version: 0.0.1
+version: 1.0.0
 homepage: https://github.com/Puneetsharma5525/StatusBarColor
 repository: https://github.com/Puneetsharma5525/StatusBarColor
 environment:
