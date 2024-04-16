@@ -1,6 +1,6 @@
 # StatusBarColor Plugin
 
-[![pub package](https://img.shields.io/pub/v/status_bar.svg)](https://pub.dartlang.org/packages/status_bar)
+[![pub package](https://img.shields.io/pub/v/status_navigation.svg)](https://pub.dartlang.org/packages/status_navigation)
 
 StatusBarColor is a Flutter plugin that provides a convenient way to change the color of the status bar and the system navigation bar in your Flutter applications. With this dependency, you can easily customize the appearance of these elements to match the design of your app, enhancing the overall user experience.
 
@@ -17,7 +17,7 @@ To start using StatusBarColor in your Flutter project, follow these simple steps
 
 ```yaml
 dependencies:
-  status_bar: ^1.0.0
+  status_navigation: ^1.0.0
 ```
 
 ## License

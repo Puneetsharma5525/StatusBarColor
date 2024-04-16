@@ -1,11 +1,11 @@
-name: status_bar
+name: status_navigation
 description: "Widget modifying status & navigation bar color: StatusBarColor dependency project."
 version: 0.0.1
 homepage: https://github.com/Puneetsharma5525/StatusBarColor
 repository: https://github.com/Puneetsharma5525/StatusBarColor
 environment:
   sdk: '>=3.3.3 <4.0.0'
-  flutter: ">=1.17.0"
+  flutter: ">=1.20.0"
 
 dependencies:
   flutter:
